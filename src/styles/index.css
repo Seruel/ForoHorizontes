@@ -1,0 +1,82 @@
+.boton {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+.boton:hover{
+    background-color: #1c6d2f;
+    border-color: #28a745;
+}
+
+.encabezado {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.titulo{
+    color: #28a745 !important;
+}
+
+.header{
+    background-color: #33c555 !important;
+    color: white;
+}
+
+.boton_header{
+    border-width: 2px;
+    border-color: aliceblue;
+}
+
+.footer{
+    background-color: #207233 !important;
+}
+
+.menu {
+    min-height: 100%;
+    background-color: #28a745 !important;
+}
+
+.desplegable {
+    min-height: 100%;
+    background-color: #28a745 !important;
+}
+
+.menu ul.nav {
+    padding: 0; /* Elimina el espacio por defecto */
+    margin: 0;  /* Elimina el margen por defecto */
+}
+  
+.nav-item {
+    margin-bottom: 10px; /* Agrega espacio entre los elementos del menú */
+}
+  
+.nav-item a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.nav-item a:hover {
+    background-color: #ffffff33; /* Fondo blanco con opacidad al pasar el mouse */
+}
+
+.contenedor_verde{
+    background-color: #28a745;
+}
+
+.titulo_categorias{
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+.publicacion{
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .desplegable{
+        min-height: none;
+    }
+    .header{
+        text-align: center;
+    }
+}
